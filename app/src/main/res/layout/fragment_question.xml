@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:gravity="center">
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/flBoard"
+        android:background="@drawable/qs_board">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="110">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="199"
+                    android:gravity="center"
+                    android:text=""
+                    android:textColor="@color/colorWhite"
+                    android:id="@+id/tvNo"
+                    android:textStyle="bold"
+                    android:shadowColor="#2c2e89"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="7"
+                    android:textSize="@dimen/fontsize_question_no" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/view"
+                    android:layout_weight="595" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="131">
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="53" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:textSize="@dimen/fontsize_question_title"
+                    android:id="@+id/tvTitle"
+                    android:textColor="@color/colorWhite"
+                    android:text=""
+                    android:gravity="center_vertical"
+                    android:textStyle="bold"
+                    android:layout_weight="688" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="53" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65" />
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="133dp"
+                android:id="@+id/llContainer">
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/view2"
+                    android:layout_weight="130" />
+
+                <ListView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lvAnswer"
+                    android:divider="@null"
+                    android:layout_weight="640"
+                    android:scrollbarThumbVertical="@drawable/custom_scrollbar_vertical_thumb"
+                    android:scrollbarTrackVertical="@drawable/custom_scrollbar_vertical_track"
+                    android:scrollbarStyle="outsideOverlay"
+                    android:listSelector="@android:color/transparent"/>
+
+                <android.support.v4.widget.Space
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_weight="10" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="45" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="136"
+                android:orientation="horizontal">
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="210" />
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:text="@string/gogogo"
+                    android:id="@+id/tvGogogo"
+                    android:gravity="center"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/fontsize_gogogo"
+                    android:shadowColor="#2c2e89"
+                    android:shadowDx="2"
+                    android:shadowDy="2"
+                    android:shadowRadius="7"
+                    android:layout_weight="374" />
+
+                <android.support.v4.widget.Space
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="210" />
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="65" />
+
+        </LinearLayout>
+
+        <include
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            layout="@layout/loading"
+            android:id="@+id/flLoading" />
+
+    </FrameLayout>
+
+</LinearLayout>

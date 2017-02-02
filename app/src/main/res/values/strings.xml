@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">iGaming Butler</string>
+    <string name="app_title">iGamingButler</string>
+
+    <string name="parse_app_id">v5q8gvgIUBoEGmDZQrr3JmWJSmZzX0zRxo7gQEdR</string>
+    <string name="parse_client_key">JAGaTi46aQy2lfZCbhE3M3IJxTgGAVtqcjS9EXq1</string>
+    <string name="hipmob_key">165ffb2f62c54c1eb0b0d6c526c9eb04</string>
+    <!--<string name="hipmob_key">b18066f9188c449bb0070a888e7fb375</string>-->
+
+    <string name="welcome"><![CDATA[<b>Hello & Welcome</b><br>Please answer the following<br> Questions to <b>get started!</b>]]></string>
+    <string name="gogogo">GO GO GO!</string>
+    <string name="q">Q</string>
+
+    <string name="question1_title">WHAT GAMES DO YOU PREFER?</string>
+    <string name="game_slots">Slots</string>
+    <string name="game_blackjack">Blackjack</string>
+    <string name="game_roulete">Roulette</string>
+    <string name="game_videopoker">Video Poker</string>
+    <string name="game_other">Other</string>
+
+    <string name="question2_title">ARE YOU INTERESTED IN FREE SPINS?</string>
+    <string name="question3_title">ARE YOU INTERESTED IN NO DEPOSIT BONUSES?</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+
+    <string name="question4_title">HOW MUCH DO YOU DEPOSIT MONTHLY?</string>
+    <string name="deposit_0">I do not deposit anything</string>
+    <string name="deposit_1_100">&lt;$100</string>
+    <string name="deposit_101_500">$101-$500</string>
+    <string name="deposit_501_1000">$501-$1000</string>
+    <string name="deposit_1001_5000">$1001-$5000</string>
+    <string name="deposit_5000_">$5000 or more</string>
+
+    <string name="question5_title">WHERE DO YOU ALREADY HAVE AN ACCOUNT?</string>
+    <string name="question6_title">WHERE DO YOU LIVE?</string>
+
+    <string name="question7_title">WHAT ARE YOU LOOKING FOR TODAY?</string>
+    <string name="free_spins">Free Spins</string>
+    <string name="no_deposit_bonus">No Deposit Bonus</string>
+    <string name="deposit_bonus">Very nice 1.deposit bonus</string>
+    <string name="vip_bonus">VIP bonus</string>
+
+    <string name="free_spins_offers_title">Best Free Spins offers for you</string>
+    <string name="no_deposit_offers_title">Best No Deposit offers for you</string>
+    <string name="deposit_offers_title">Best First Deposit offers for you</string>
+    <string name="vip_offers_title">Best VIP Bonus offers for you</string>
+
+    <string name="amount_of_sping">Amount of spins</string>
+    <string name="wag_requ">Wag. Requirements</string>
+    <string name="rest_slots">Restricted to certain slots?</string>
+    <string name="casino">Casino</string>
+    <string name="go">Go</string>
+    <string name="amount">$ Amount</string>
+    <string name="rest_games">Restricted to Games?</string>
+    <string name="percent">%</string>
+    <string name="up_to">Up to</string>
+    <string name="t_cs">T &amp; Cs</string>
+
+</resources>

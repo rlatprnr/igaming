@@ -1,0 +1,27 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="fontsize_toolbar_title">@dimen/_13sdp</dimen>
+
+    <dimen name="fontsize_welcome">@dimen/_14sdp</dimen>
+    <dimen name="fontsize_gogogo">@dimen/_12sdp</dimen>
+
+    <dimen name="fontsize_question_no">@dimen/_12sdp</dimen>
+    <dimen name="fontsize_question_title">@dimen/_13sdp</dimen>
+    <dimen name="fontsize_question_label">@dimen/_14sdp</dimen>
+
+    <dimen name="fontsize_offer_title">@dimen/_13sdp</dimen>
+    <dimen name="fontsize_offer_header">@dimen/_9sdp</dimen>
+    <dimen name="fontsize_offer_text">@dimen/_12sdp</dimen>
+    <dimen name="fontsize_offer_popup">@dimen/_10sdp</dimen>
+
+    <dimen name="scrollbar_width">@dimen/_4sdp</dimen>
+    <dimen name="scrollbar_width1">@dimen/_2sdp</dimen>
+
+    <dimen name="answer_cell_h">@dimen/_24sdp</dimen>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+
+</resources>

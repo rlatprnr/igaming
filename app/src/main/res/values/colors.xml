@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#9c571d</color>
+    <color name="colorAccent">#3d40be</color>
+
+    <color name="colorWelcome">#545759</color>
+
+    <color name="colorControlNormal">#dededf</color>
+    <color name="colorWhite">#FFF</color>
+    <color name="gogogoDisableColor">#6163be</color>
+
+    <color name="answerColor">#6d6f72</color>
+
+    <color name="offerBackgroundColor">#e3e9ee</color>
+    <color name="offerHeaderColor">#494949</color>
+    <color name="offerCellColor">#f0a42d</color>
+
+</resources>

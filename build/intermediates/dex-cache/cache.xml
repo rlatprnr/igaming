@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\bb\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-tasks\1.4.0\d85884acf6810a3bbbecb587f239005cbc846dc4\bolts-tasks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="d85884acf6810a3bbbecb587f239005cbc846dc4">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\bolts-tasks-1.4.0_c5041ca781bfde773ba8c2a43a701be0c4ecb931.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\libs\android-hipmob-2.9.8.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="b0156484bef59c13d68c7e44b64362886f2256e9">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\android-hipmob-2.9.8_96abf1a075f5f140fdd0ade8f330911e8c3886ce.jar" />
+    </item>
+    <item
+        jar="C:\Users\bb\.gradle\caches\modules-2\files-2.1\com.parse\parse-android\1.13.0\58a7d54b6a4f28be11f0cecec93097eddf473e6f\parse-android-1.13.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="58a7d54b6a4f28be11f0cecec93097eddf473e6f">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\parse-android-1.13.0_075ead9369c9e8fc23c55716b047d7c7455d34cb.jar" />
+    </item>
+    <item
+        jar="E:\android-sdk\extras\android\m2repository\com\android\support\support-annotations\23.1.1\support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\support-annotations-23.1.1_bedf8e3913247599d8865cf8c67b2cefc29240c7.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.1.1_4b837f7dd71f4ab16f3f9dab69213f983a026a37.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\jars\libs\internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\internal_impl-23.1.1_5a0e53a70d76a4de7012bb610e570792647d6800.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.1.1_c85f4837ad74a9d891c795fe91a16001224b2162.jar" />
+    </item>
+    <item
+        jar="C:\Users\bb\.gradle\caches\modules-2\files-2.1\com.parse.bolts\bolts-applinks\1.4.0\8ad21bf21784dacce5f2043afb97218cc377e835\bolts-applinks-1.4.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8ad21bf21784dacce5f2043afb97218cc377e835">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\bolts-applinks-1.4.0_81419b8ac1f270731bda03ddb293f99e09f3109f.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\build\intermediates\exploded-aar\com.android.support\design\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="379471b2bd17d9737c050345c08e8c7d16589784">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.1.1_81538930aa57cb816f72279d081cffe0d331ce80.jar" />
+    </item>
+    <item
+        jar="E:\work\igaming\project\app\build\intermediates\exploded-aar\com.android.support\recyclerview-v7\23.1.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="09c5e804bc67fc0580360043dff067df574a60d4">
+        <dex dex="E:\work\igaming\project\app\build\intermediates\pre-dexed\debug\com.android.support-recyclerview-v7-23.1.1_93f620b2a6fb7094f2e0af09c686b94e47634441.jar" />
+    </item>
+
+</items>

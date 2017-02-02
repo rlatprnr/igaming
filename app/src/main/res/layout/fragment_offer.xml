@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/offerBackgroundColor">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="300dp"
+            android:layout_height="match_parent"
+            android:id="@+id/llContainer">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="300"
+                android:orientation="vertical"
+                android:gravity="bottom">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/offer_hear_bg"
+                    android:id="@+id/llHead">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:text="New Text"
+                        android:id="@+id/tvTitle"
+                        android:gravity="center"
+                        android:layout_weight="110"
+                        android:textColor="@color/colorWhite"
+                        android:textStyle="bold"
+                        android:textSize="@dimen/fontsize_offer_title" />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="137">
+
+                        <android.support.v4.widget.Space
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:layout_weight="42" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead1"
+                            android:layout_weight="156"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead2"
+                            android:layout_weight="156"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead3"
+                            android:layout_weight="155"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead4"
+                            android:layout_weight="186"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:text="@string/t_cs"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead5"
+                            android:layout_weight="163"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:text="@string/casino"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+
+                        <TextView
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:id="@+id/tvHead6"
+                            android:layout_weight="169"
+                            android:gravity="center"
+                            android:textColor="@color/offerHeaderColor"
+                            android:textSize="@dimen/fontsize_offer_header"
+                            android:text="@string/go"
+                            android:paddingLeft="@dimen/_2sdp"
+                            android:paddingRight="@dimen/_2sdp" />
+                    </LinearLayout>
+
+                    <android.support.v4.widget.Space
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="24" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <android.support.v4.widget.Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="30" />
+
+            <FrameLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="700">
+
+                <ListView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:id="@+id/lvOffer"
+                    android:divider="@null"
+                    android:listSelector="@android:color/transparent"/>
+
+                <include
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    layout="@layout/loading"
+                    android:id="@+id/flLoading" />
+
+            </FrameLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <include
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        layout="@layout/popup"
+        android:id="@+id/flPopup" />
+</FrameLayout>

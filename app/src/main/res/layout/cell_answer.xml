@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical">
+
+    <LinearLayout
+        android:orientation="horizontal" android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical">
+
+        <FrameLayout
+            android:layout_width="0dp"
+            android:layout_height="@dimen/answer_cell_h"
+            android:layout_weight="66">
+
+            <CheckBox
+                android:layout_width="@dimen/_14sdp"
+                android:layout_height="@dimen/_14sdp"
+                android:id="@+id/checkBox"
+                android:layout_gravity="center_vertical"
+                android:button="@null"
+                android:background="@drawable/unchecked" />
+        </FrameLayout>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:id="@+id/tvLabel"
+            android:layout_weight="583"
+            android:textSize="@dimen/fontsize_question_label"
+            android:singleLine="false"
+            android:textColor="@color/answerColor" />
+
+    </LinearLayout>
+
+</FrameLayout>
